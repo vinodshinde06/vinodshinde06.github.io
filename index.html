@@ -18,9 +18,15 @@
   <label for="numTeachers">Number of Teachers Required per Session:</label>
   <input type="number" id="numTeachers" name="numTeachers" min="1" required><br>
 
+  
+
+ 
+  
+
   <!-- Teacher checkboxes -->
   <div id="teacherCheckboxes">
     <p>Select Available Teachers:</p>
+    <button type="button" onclick="selectAllTeachers()">Select All Teachers</button>
     <table>
       <tbody id="teacherCheckboxesTable"></tbody>
     </table>
@@ -37,7 +43,7 @@
   <thead>
     <tr>
       <th>Day</th>
-      <th>Morning Invigilators</th>
+      <th> Invigilators</th>
       <th>Afternoon Invigilators</th>
       <th>Subject</th>
     </tr>
