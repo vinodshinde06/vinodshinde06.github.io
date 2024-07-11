@@ -29,6 +29,11 @@ label {
   color: #333;
   font-size: 1.2rem;
 }
+#teacherCheckboxes p {
+    color: #000; /* Set the color to black */
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
 
 input[type="number"],
 input[type="text"] {
